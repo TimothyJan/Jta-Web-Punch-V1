@@ -11,7 +11,7 @@ export class DateTimeCompComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.currentDateTimeUpdate;
+    this.currentDateTimeUpdate();
   }
 
   currentDateTimeUpdate(): void {

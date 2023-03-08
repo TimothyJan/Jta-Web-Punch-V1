@@ -18,7 +18,7 @@ html body {
 }
 
 body {
-  padding: 5% 5% 0px;
+  padding: 5% 5% 5%;
 }
 
 .container {
@@ -27,14 +27,24 @@ body {
   width: 100%;
 }
 
+button {
+  font-size: 36px;
+  // background: #4285F4;
+  // color: white;
+  font-size: 18px;
+  // line-height: 10%;
+  height: 150%;
+  width: 100%;
+}
+
 /* header */
 .logo img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 5%;
+  // padding-top: 5%;
   padding-bottom: 5%;
-  width: 50%;
+  width: 40%;
   // border-radius: 35%;
   // background: url(assets/img/bg.png);
   // box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
@@ -54,4 +64,17 @@ body {
   flex: 1;
   height: 1px;
   background: #eee;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.error-text {
+  color: red;
+}
+
+.btn-in-out-enter-cancel {
+  margin-right: 2.5%;
+  margin-left: 2.5%;
 }
