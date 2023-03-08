@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "styles-variables";
+
+@import 'bootstrap/scss/bootstrap-reboot';
+@import 'bootstrap/scss/bootstrap-grid';
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+@import '~mdb-ui-kit/css/mdb.min.css';
+
+html body {
+  background: url(assets/img/bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  padding: 5% 5% 0px;
+}
+
+.container {
+  display: block;
+  justify-content: center;
+  width: 100%;
+}
+
+/* header */
+.logo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 50%;
+  // border-radius: 35%;
+  // background: url(assets/img/bg.png);
+  // box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
+  // box-shadow: 0 0 8px 8px white inset;
+}
+
+/* datetime */
+.dateTime {
+  text-align: center;
+  color: #00228C;
+}
+
+/* input */
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
