@@ -45,6 +45,7 @@ button {
   // padding-top: 5%;
   padding-bottom: 5%;
   width: 50%;
+  max-width: 350px;
   // border-radius: 35%;
   // background: url(assets/img/bg.png);
   // box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
@@ -85,4 +86,20 @@ h3 {
 .btn-in-out-enter-cancel {
   margin-right: 2.5%;
   margin-left: 2.5%;
+}
+
+.btn-in-out-enter-cancel:disabled {
+  opacity: 40%;
+}
+
+.btn-options {
+  // background-color: #55acee;
+  width:50%;
+  max-width: 300px;
+  margin: auto;
+}
+
+.btn-options:disabled {
+  // background-color: #55acee;
+  opacity: 40%;
 }
