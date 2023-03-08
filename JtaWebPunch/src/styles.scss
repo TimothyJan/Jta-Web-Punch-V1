@@ -57,6 +57,14 @@ button {
   color: #00228C;
 }
 
+h1 {
+  font-size: calc(3.0rem + 1.5vw);
+}
+
+h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+
 /* input */
 .divider:after,
 .divider:before {
