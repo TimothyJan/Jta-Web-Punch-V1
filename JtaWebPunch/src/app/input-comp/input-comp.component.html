@@ -1,8 +1,4 @@
 <section class="vh-50">
-  <!-- Status Message -->
-  <div class="text-center">
-    <h3>{{ statusMessage }}</h3>
-  </div>
   <!-- Welcome! -->
   <div *ngIf="isAuthenticated" class = "text-center">
     <h3>Welcome</h3>
@@ -11,6 +7,10 @@
   <!-- Wrong info -->
   <div *ngIf="errorMessage" class = "text-center error-text">
     <h4>{{ errorMessage }}</h4>
+  </div>
+    <!-- Status Message -->
+    <div class="text-center">
+      <h3>{{ statusMessage }}</h3>
   </div>
 
   <div class="container py-5 h-25">

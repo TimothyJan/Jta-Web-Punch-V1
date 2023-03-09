@@ -12,6 +12,7 @@ export class InputCompComponent implements OnInit {
   errorMessage = "";
   statusMessage = "";
   usernameDisplay = "";
+  /* Dummy Info */
   user = {
     ID: "201",
     CardNumber: "201",
@@ -21,7 +22,7 @@ export class InputCompComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log("Check for database connection");
+    console.log("Web App is working!");
   }
 
   onEnter(): void {
